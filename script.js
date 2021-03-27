@@ -31,7 +31,8 @@ if (nome !== '' && altura !=='' && peso!==''){
     }else if(valorIMC<50){
         classificacao='com obesidade grau III.Cuidado!!';
     }
-    else{
+    // Devido ao Covid, esse estágio se torna mais perigoso
+    else {
         classificacao='com obesidade da obesidade'
     }
 
